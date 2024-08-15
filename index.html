@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Anas CV</title>
+</head>
+
+<body>
+    <div class="hero">
+        <h1>Anas</h1>
+        <p class="copy">Web Designer | Developer</p>
+    </div>
+    <div class="circular-text-container">
+        <svg width="100vw" height="100vh" viewBox="0 0 400 400">
+            <!-- Define the circular path -->
+            <path id="orbit" d="M 200,200 m -165,0 a 150,150 0 1,1 300,0 a 150,150 0 1,1 -300,0" fill="none"
+                stroke="none" stroke-width="1" />
+
+            <!-- Define individual letters along the circular path -->
+            <text id="skills" class="circular-text" font-size="20">
+                <textPath href="#orbit" startOffset="0%">
+                    <tspan id="S" class="letter">S</tspan>
+                    <tspan id="k" class="letter">k</tspan>
+                    <tspan id="i" class="letter">i</tspan>
+                    <tspan id="l" class="letter">l</tspan>
+                    <tspan id="l" class="letter">l</tspan>
+                    <tspan id="s" class="letter">s</tspan>
+                </textPath>
+            </text>
+
+            <text id="bio" class="circular-text" font-size="20">
+                <textPath href="#orbit" startOffset="80%">
+                    <tspan id="B" class="letter">B</tspan>
+                    <tspan id="i" class="letter">i</tspan>
+                    <tspan id="i" class="letter">o</tspan>
+                    <tspan id="o" class="letter">g</tspan>
+                    <tspan id="B" class="letter">r</tspan>
+                    <tspan id="i" class="letter">a</tspan>
+                    <tspan id="o" class="letter">p</tspan>
+                    <tspan id="B" class="letter">h</tspan>
+                    <tspan id="i" class="letter">y</tspan>
+                </textPath>
+            </text>
+
+            <text id="contact" class="circular-text" font-size="20">
+                <textPath href="#orbit" startOffset="40%">
+                    <tspan id="C" class="letter">C</tspan>
+                    <tspan id="o" class="letter">o</tspan>
+                    <tspan id="n" class="letter">n</tspan>
+                    <tspan id="t" class="letter">t</tspan>
+                    <tspan id="a" class="letter">a</tspan>
+                    <tspan id="c" class="letter">c</tspan>
+                    <tspan id="t" class="letter">t</tspan>
+                </textPath>
+            </text>
+
+            <text id="portfolio" class="circular-text" font-size="20">
+                <textPath href="#orbit" startOffset="60%">
+                    <tspan id="P" class="letter">P</tspan>
+                    <tspan id="o" class="letter">o</tspan>
+                    <tspan id="r" class="letter">r</tspan>
+                    <tspan id="t" class="letter">t</tspan>
+                    <tspan id="f" class="letter">f</tspan>
+                    <tspan id="o" class="letter">o</tspan>
+                    <tspan id="l" class="letter">l</tspan>
+                    <tspan id="i" class="letter">i</tspan>
+                    <tspan id="o" class="letter">o</tspan>
+                </textPath>
+            </text>
+
+            <text id="experience" class="circular-text" font-size="20">
+                <textPath href="#orbit" startOffset="20%">
+                    <tspan id="E" class="letter">E</tspan>
+                    <tspan id="x" class="letter">x</tspan>
+                    <tspan id="p" class="letter">p</tspan>
+                    <tspan id="e" class="letter">e</tspan>
+                    <tspan id="r" class="letter">r</tspan>
+                    <tspan id="i" class="letter">i</tspan>
+                    <tspan id="e" class="letter">e</tspan>
+                    <tspan id="n" class="letter">n</tspan>
+                    <tspan id="c" class="letter">c</tspan>
+                    <tspan id="c" class="letter">e</tspan>
+                </textPath>
+            </text>
+        </svg>
+    </div>
+    <div class="bio">
+        <div class="pic">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        </div>
+        <div class="bioData">
+            <h3>Anas Ahmed</h3>
+            <div class="info">
+                <span class="label">DOB:</span> 4/11/1989
+            </div>
+            <div class="info">
+                <span class="label">Education:</span> Chartered Institute of Management Accountancy (UK)
+            </div>
+            <hr>
+            <div class="info">
+                <span class="label">Hobbies:</span> Programming, Formula 1, Anime
+            </div>
+            <div class="info">
+                <span class="label">Favorite Language:</span> Python (for versatility), JavaScript (Ability to
+                Manipulate DOM), CSS (For creating Amazing Layouts)
+            </div>
+            <div class="info">
+                <span class="label">Favorite Framework:</span> Django, Laravel
+            </div>
+            <div class="info">
+                <span class="label">Favorite Database:</span> SQLite
+            </div>
+        </div>
+        <button class="close-bio">Close</button>
+    </div>
+
+
+
+    <div class="portfolio">
+        <h2 class="section-heading">Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h4>Techgro</h4>
+                <img src="img/techgrow.jpg" alt="techgro website screenshot">
+                <p><strong>Details:</strong><br>
+                    Techgro is a micronutrient fertlizer company , one of the largest producers of WDG Sulfur in
+                    Pakistan. This is a full stack website with PHP , MariaDB as backend and HTML5 CSS3 and Vanilla JS
+                    for fronend. The website is fully responsive for portrait oriented screens and utilizes modern UI
+                    elements
+                </p>
+                <div class="link"><a href="https://techgro.netlify.app">Live View</a></div>
+            </div>
+            <div class="project">
+                <h4>kinneberg</h4>
+                <img src="img/kinneberg.jpg" alt="Kinneberg Landing page screenshot">
+                <p><strong>Details:</strong><br>
+                    kinneberg is a Lawn care LLC company. The website is a lading page which is aimed at capturing
+                    leads. It uses Vanilla JS, CSS33 and HTML5 and uses moden UI aesthetics. The page is fully
+                    responsive for all portrait oriented screens.
+                </p>
+                <div class="link"><a href="https://kinneberg.netlify.app">Live View</a></div>
+
+            </div>
+            <div class="project">
+                <h4>DevServo</h4>
+                <img src="img/DevServo-screenshot.jpg" alt="Devservo website screenshot">
+                <p><strong>Details:</strong><br>
+                    DevServo is my own website that is aimed to showscase my ability to make modern , unique out of the
+                    box designs. It uses Vanilla JS and GSAP for Animations. It utilizes various DOM event to scroll
+                    through different pages although it ian SPA.The website is fully responsive for all portrait
+                    oriented screens
+                </p>
+                <div class="link"><a href="https://devservo.netlify.app">Live View</a></div>
+            </div>
+            <div class="project">
+                <h4>DevServo - Pageflow</h4>
+                <img src="img/pageflow-screenshot.jpg" alt="techgro website screenshot">
+                <p><strong>Details:</strong><br>
+                    This is another DevServo portfolio website utilizing pageflow theme. It uses Swiper JS, Vanilla JS ,
+                    HTML5 CSS3. Its Modern and fully responsive for all portrait oriented screens
+                </p>
+                <div class="link"><a href="https://devservo-pageflow.netlify.app">Live View</a></div>
+            </div>
+
+            <div class="project">
+                <h4>Graphic Design</h4>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/logos/foxhat.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/logos/bapto.jpg" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="img/logos/ics.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/logos/one pass.jpg" />
+                        </div>
+                    </div>
+
+
+                </div>
+                
+            </div>
+
+        </div>
+        <button class="close-portfolio">Close</button>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Front-End Development</h3>
+            <p>I specialize in creating modern, responsive front-end layouts using HTML5, CSS3, and Vanilla JavaScript.
+                My expertise includes leveraging animation and interactivity with libraries such as GSAP, Waypoints,
+                Swiper, and jQuery. Whether it's simple websites or complex, dynamic user interfaces, I ensure that
+                every project is fully responsive and optimized for all devices.</p>
+        </div>
+        <div class="skill">
+            <h3>Back-End Development</h3>
+            <p>While my main focus is front-end development, I can also build full-stack applications
+                using Django, Laravel, Vanilla PHP, Node.js, and Express.js. I have used databases like
+                SQLite, MySQL, and MongoDB. Security is my top priority when developing backend systems, ensuring robust
+                protection for every project.</p>
+        </div>
+        <div class="skill">
+            <h3>WordPress</h3>
+            <p>I have been developing WordPress websites since 2008, creating fully customized themes from scratch. My
+                experience includes not only theme development but also some plugin customization with the assistance of
+                AI. Whether it's a personal blog or a profolio website, I can deliver tailored WordPress solutions..</p>
+        </div>
+        <div class="skill">
+            <h3>Graphic Design</h3>
+            <p>With over a decade of experience in graphic design, I have created logos and banners for various online
+                competitions, with a few designs shortlisted in the top 5 of global contests—an accomplishment I'm
+                particularly proud of. Additionally, I’ve worked with a non-profit organization under a non-disclosure
+                agreement. My tools of choice are CorelDRAW and GIMP, and I am passionate about crafting visually
+                compelling designs that align seamlessly with brand identities</p>
+        </div>
+        <div><button class="close-skills">Close</button></div>
+
+    </div>
+
+    <div class="experience">
+        <h2>Programming Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>2006</h3>
+                <p>Started learning <span class="tech">HTML</span>, <span class="tech">CSS</span>, and <span
+                        class="tech">JavaScript</span>.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2006-2016</h3>
+                <p>Created numerous websites using <span class="tech">WordPress</span>, <span class="tech">SMF</span>,
+                    <span class="tech">vBulletin</span>, and <span class="tech">Xenforo</span>, focusing on custom theme
+                    development and administration.
+                </p>
+            </div>
+            <div class="timeline-item">
+                <h3>2020</h3>
+                <p>Learned <span class="tech">Node.js</span> and built a multiple-choice quiz app with rankings and
+                    forums, utilizing <span class="tech">MongoDB</span>.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2020</h3>
+                <p>Learned <span class="tech">PHP</span> and recreated the quiz app with <span
+                        class="tech">Laravel</span>, switching to <span class="tech">MySQL</span> as the database.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2021</h3>
+                <p>Dived into <span class="tech">Python</span>, developing custom scripts to help with file management
+                    on <span class="tech">Windows</span>.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2023</h3>
+                <p>Explored <span class="tech">Django</span> and successfully built a full-featured CRM app.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2024</h3>
+                <p>Turned a lifelong passion into a full-time career, learning <span class="tech">Git</span> so that I
+                    don't lose my projects after any hard drive crash.</p>
+            </div>
+        </div>
+        <button class="close-experience">Close</button>
+    </div>
+
+
+
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out through any of the methods below:</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="img/mail-icon-white.svg" alt="mail icon" class="icons">
+                <a href="mailto:gudservo@gmail.com">gudservo@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <img src="img/mobile-icon-white.svg" alt="mobile icon" class="icons">
+                <a href="tel:+923244713373">+92 324 4713373</a>
+            </div>
+            <div class="contact-item">
+                <img src="img/github-1.svg" alt="github icon" class="icons">
+                <a href="https://github.com/devservo" target="_blank">github.com/devservo</a>
+            </div>
+        </div>
+        <button class="close-contact">Close</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
