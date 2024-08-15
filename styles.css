@@ -752,7 +752,7 @@ button:hover {
     left: -125%
   }
     button {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
     
 }
@@ -761,7 +761,7 @@ button:hover {
 @media (max-width: 480px) {
 
     button {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
   .hero {
     position: absolute;
