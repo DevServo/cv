@@ -751,10 +751,18 @@ button:hover {
   .copy {
     left: -125%
   }
+    button {
+        margin-bottom: 1em;
+    }
+    
 }
 
 
 @media (max-width: 480px) {
+
+    button {
+        margin-bottom: 1em;
+    }
   .hero {
     position: absolute;
     top: 50%;
